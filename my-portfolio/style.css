@@ -1,0 +1,671 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    -moz-text-size-adjust: none; /* For Firefox on Android */
+    -webkit-text-size-adjust: none; /* For Safari and older Chromium browsers */
+    text-size-adjust: none;
+}
+html, body {
+    height: 100%;
+    font-family: "Funnel Sans", sans-serif;
+    font-style: normal;
+    overflow-x: hidden;
+}
+body {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+li {
+    opacity: 1; 
+	animation-name: navfadeInOpacity, navbounce;
+}
+li:hover {
+    transform: scale(1.2);
+    transition: transform .2s;
+    animation-timing-function: ease-out;
+}
+.bounce1 {
+    animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: 1s;
+    animation: "navbounce";
+}
+.bounce2 {
+    animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.4s;
+    animation: "navbounce";
+}
+.bounce3 {
+    animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: 2s;
+    animation: "navbounce";
+}
+.bounce4 {
+    animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2.3s;
+    animation: "navbounce";
+}
+@keyframes navfadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes navbounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Header CSS */
+header {
+    width: 100vw;
+    height: auto;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.09rem;
+}
+.title {
+    padding: 1%;
+}
+nav {
+    width: 50%;
+    height: auto;
+    padding: 1%;
+}
+ul {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+}
+.navlink {
+    text-decoration: none;
+    color: black;
+}
+/* Body CSS */
+main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+.about {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: grid;
+}
+.messagebx {
+    width: 100%;
+    height: auto;
+    position: relative;
+    /*top: 6%;*/
+    /*left: 5%;*/
+}
+
+.messagebx2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 50%;
+    /*top: 10%;*/
+    /*padding-left: 3.5%;*/
+    /*text-align: center;*/
+    /*font-size: 1.09rem;*/
+}
+.text {
+    font-size: 2.5rem;
+    padding: 2%;
+}
+.text2 {
+    font-size: 1.5rem;
+    padding: 2%;
+    
+}
+.text3 {
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    /*top: 25%;*/
+    padding: 2%;
+}
+/* Technoligies Section CSS */
+.techbx {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+.techimgbx {
+    width: 100%;
+    height: auto;
+    position: relative; 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-items: center;   
+}
+h2 {
+    font-size: 1.3rem;
+}
+/*Technolgies icon sizing CSS*/
+img {
+    display: block;
+    position: relative;
+}
+.js {
+    width: 5.3vw;
+    height: 18.5vh;
+    position: relative;
+}
+.php {
+    width: 6vw;
+    height: auto;
+    position: relative;
+}
+.phpbx {
+    max-width:6vw;
+    height: auto;
+    position: relative;
+}
+.java {
+    width: 8vw;
+    height: 17vh;
+}
+.python {
+    width: 6vw;
+    height: auto;
+}
+/* Skills Section CSS */
+.skillbx {
+    width: 100%;
+    height: auto;
+    position: relative;
+    /*display: grid;*/
+    text-align: center;
+    bottom: 10%;
+}
+.skillimgbx {
+    width: 100%;
+    height: auto;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-items: center;*/
+}
+/*Skill icon sizing css */
+.skillicon {
+    width: 7vw;
+    height: auto;
+}
+.opicon {
+    width: 6vw;
+    height: auto;
+}
+.servericon {
+    width: 8.5vw;
+    height: auto;  
+}
+.pythonbx {
+    max-width: 6vw;
+    height: auto;
+}
+/*Project Section CSS*/
+.projects {
+    width: 50%;
+    height: 75%;
+    text-align: center;
+    position: relative;
+    /*padding-top: 5%;*/
+    display: grid;
+    /*align-items: center;*/
+}
+.ptitlecontainer {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 25%;
+    top: 5%;
+}
+.project-title {
+    position: relative;
+    font-size: 2rem;
+    top: 10%;
+    /*bottom: 7%;*/
+}
+.top,.mid,.btm {
+    width: 100%;
+    height: auto;
+    position: relative;
+    /*bottom: 20%;*/
+    /*padding:2%;*/
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.top {
+    bottom: 20%;
+}
+.btm {
+    top: 20%;
+}
+/*thumbnail css */
+.project-card {
+    width: 40%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: block;
+    position: relative;
+}
+.topwindow {
+    width: 20vw;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ptitle {
+    width: auto;
+    height:3vh;
+    border-top: 1px solid black;
+    position: relative;
+}
+.titletext {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    /*top: 80%;*/
+    /*padding-top: 7%;*/
+}
+.picons {
+    width: 6vw;
+    height:auto;
+    position: relative;
+    right: 2%;
+}
+.picons2 {
+    width: 6vw;
+    height: 10vh;
+}
+.calculatoricon {
+    width: 6vw;
+    height: 90%;
+    position: relative;
+    top: 5%;
+}
+.weathericon {
+    position: relative;
+    width: 10%;
+    height: 90%;
+   /* top: 5%;*/
+}
+/*Bottom & Contact form CSS */
+footer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*display: grid;*/
+}
+.contact {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+    border: 3.6px solid grey;
+    border-radius: 10px;
+}
+form {
+    width: 50vw;
+    height: 55vh;
+    position: relative;
+    /*display: grid;*/
+    /*justify-content: center;*/
+    /*border: 1.8px solid grey;*/
+    /*border-radius: 5px;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+}
+label {
+    display: grid;
+    position: relative;
+}
+.email {
+    /*width: 12.5vw;*/
+    /*height: 4vh;*/
+    position: relative;
+    text-align: center;
+    /*display: block;*/
+    margin : 0 auto;
+    padding: 2px;
+    /*padding: 5px 5px;*/
+    /*left: 50%;*/
+} 
+textarea {
+    width: 30vw;
+    resize: none;
+    position: relative;
+    left: 11%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /*display: block;*/
+    /*margin : 0 auto;*/
+    /*padding: 12px 12px;*/
+}
+.submitbtn {
+    width: 10vw;
+    height: 5vh;
+    /*display: block;*/
+    margin : 0 auto;
+    /*border-radius: 5px;*/
+    position: relative;
+    right: 30%;
+    top: 10%;
+}
+/* media queries for header */
+@media only screen and (min-width:375px) {
+    header {
+        font-size: .6rem;
+    }
+}
+@media only screen and (min-width:415px) {
+    header {
+        font-size: .6rem;
+    }
+}
+@media only screen and (min-width:430px) {
+    header {
+        font-size: .6rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    header {
+        font-size: .8rem;
+    }
+}
+@media only screen and (min-width:820px) {
+    header {
+        font-size: .8rem;
+    }
+}
+@media only screen and (min-width:1024px) {
+    header {
+        font-size: 1.4rem;
+    }
+}
+/* Media Queries For First main Text*/
+@media only screen and (min-width:375px) {
+    .text {
+        font-size: 1.35rem;
+    }
+}
+@media only screen and (min-width:400px) {
+    .text {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:430px) {
+    .text {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    .text {
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (min-width:820px) {
+    .text {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width:920px) {
+    .text {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .text {
+        font-size: 3rem;
+    }
+}
+/* Media Queries For Second main Text*/
+@media only screen and (min-width:375px) {
+    .text2 {
+        font-size: .8rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    .text2 {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .text2 {
+        font-size: 2rem;
+    }
+}
+/* Media Queries For Third main Text*/
+@media only screen and (min-width:375px) {
+    .text3 {
+        font-size: .7rem;
+    }
+}
+@media only screen and (min-width:550px) {
+    .text3 {
+        font-size: .9rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    .text3 {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .text3 {
+        font-size: 1.4rem;
+    }
+}
+/*Media Queries For <h2> headers i.e Technolgy & Skills Title*/
+@media only screen and (min-width:375px) {
+    h2 {
+        font-size: .9rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    h2 {
+        font-size: 1.15rem;
+    }
+}
+@media only screen and (min-width:1024px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+/*Media Queries for label tag*/
+@media only screen and (min-width:375px) {
+    label {
+        font-size: .6rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    label {
+        font-size: .8rem;
+    }
+}
+@media only screen and (min-width:1024px) {
+    label {
+        font-size: 1rem;
+    }
+}
+/*  media queries first row project icons */
+@media only screen and (min-width:375px) {
+    .picons {
+        width: 10vw;
+        height: 6vh;
+    }
+}
+@media only screen and (min-width:500px) {
+    .picons {
+        width: 9vw;
+        height: 7vh;
+        right:2%;
+    }
+}
+@media only screen and (min-width:700px) {
+    .picons {
+        width: 7vw;
+        height: 8vh;
+        right:2%;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .picons2 {
+        width: 5.8vw;
+        height: 9.7vh;
+        right:2%;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .picons {
+        width: 5.4vw;
+        height: 10vh;
+    }
+}
+/*Media Queries For 2nd row project icons*/
+@media only screen and (min-width:375px) {
+    .picons2 {
+        width: 10vw;
+        height: 6vh;
+        right:2%;
+    }
+}
+@media only screen and (min-width:500px) {
+    .picons2 {
+        width: 6vw;
+        height: 8vh;
+        right:2%;
+    }
+}
+@media only screen and (min-width:700px) {
+    .picons2 {
+        width: 6vw;
+        height: 10vh;
+        right:2%;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .picons2 {
+        width: 6vw;
+        height: 10vh;
+        right:2%;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .picons2 {
+        width: 6vw;
+        height: 10vh;
+    }
+}
+/*Media Queries For Project Title*/
+@media only screen and (min-width:375px) {
+    .project-title {
+        font-size: 1.35rem;
+    }
+}
+@media only screen and (min-width:430px) {
+    .project-title {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    .project-title {
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (min-width:820px) {
+    .project-title {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .project-title {
+        font-size: 3rem;
+    }
+}
+/*Media Queries For titletext*/
+@media only screen and (min-width:375px) {
+    .titletext {
+        font-size: 9px;
+    }
+}
+@media only screen and (min-width:430px) {
+    .titletext {
+        font-size: 11px;
+    }
+}
+@media only screen and (min-width:620px) {
+    .titletext {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width:800px) {
+    .titletext {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .titletext {
+        font-size: 20px;
+    }
+}
+/*MISC*/
+@media only screen and (min-width:375px) {
+    .weathericon {
+        width: auto;
+        height: auto;
+    }
+}
+@media only screen and (min-width:375px) {
+    .calculatoricon {
+        width: auto;
+        height: auto;
+    }
+}
