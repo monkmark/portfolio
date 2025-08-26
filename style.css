@@ -90,7 +90,10 @@ header {
     font-size: 1.09rem;
 }
 .title {
-    padding: 1%;
+    position: relative;
+    left: .5%;
+    top: 12.5px;
+    
 }
 nav {
     width: 50%;
@@ -126,7 +129,8 @@ main {
     height: auto;
     position: relative;
     /*top: 6%;*/
-    /*left: 5%;*/
+    left: 0.7%;
+    
 }
 
 .messagebx2 {
@@ -139,21 +143,11 @@ main {
     /*text-align: center;*/
     /*font-size: 1.09rem;*/
 }
-.text {
-    font-size: 2.5rem;
-    padding: 2%;
-}
-.text2 {
-    font-size: 1.5rem;
-    padding: 2%;
-    
-}
+
 .text3 {
-    font-size: 2rem;
-    font-weight: 400;
     position: relative;
     /*top: 25%;*/
-    padding: 2%;
+    left: 2%;
 }
 /* Technoligies Section CSS */
 .techbx {
@@ -427,7 +421,7 @@ textarea {
 }
 @media only screen and (min-width:1024px) {
     header {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 }
 /* Media Queries For First main Text*/
@@ -463,9 +457,22 @@ textarea {
 }
 @media only screen and (min-width:1024px) {
     .text {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
+/*Large Laptop Resolution */
+@media only screen and (min-width:1440px) {
+    .text {
+        font-size: 3.25rem;
+    }
+}
+/*4K Monitor Size - Desktop Size */
+@media only screen and (min-width:2560px) {
+    .text {
+        font-size:6rem;
+    }
+}
+
 /* Media Queries For Second main Text*/
 @media only screen and (min-width:375px) {
     .text2 {
@@ -480,6 +487,11 @@ textarea {
 @media only screen and (min-width:1024px) {
     .text2 {
         font-size: 2rem;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .text2 {
+        font-size: 2.5rem;
     }
 }
 /* Media Queries For Third main Text*/
