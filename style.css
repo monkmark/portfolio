@@ -124,6 +124,9 @@ main {
     position: relative;
     display: grid;
 }
+.headers2 {
+    font-size: 2.2rem;
+}
 .messagebx {
     width: 100%;
     height: auto;
@@ -132,22 +135,15 @@ main {
     left: 0.7%;
     
 }
-
 .messagebx2 {
     width: 100%;
     height: auto;
     position: relative;
     bottom: 50%;
-    /*top: 10%;*/
-    /*padding-left: 3.5%;*/
-    /*text-align: center;*/
-    /*font-size: 1.09rem;*/
 }
-
 .text3 {
     position: relative;
-    /*top: 25%;*/
-    left: 2%;
+    left: 1%;
 }
 /* Technoligies Section CSS */
 .techbx {
@@ -174,12 +170,13 @@ img {
     position: relative;
 }
 .js {
-    width: 5.3vw;
+    width: 4.5vw;
     height: 18.5vh;
     position: relative;
 }
 .php {
-    width: 6vw;
+    top: 10px;
+    width: 5.4vw;
     height: auto;
     position: relative;
 }
@@ -188,12 +185,16 @@ img {
     height: auto;
     position: relative;
 }
+label {
+    position: relative;
+    top: 5px;
+}
 .java {
-    width: 8vw;
-    height: 17vh;
+    width: 7.1vw;
+    height: 15vh;
 }
 .python {
-    width: 6vw;
+    width: 5.1vw;
     height: auto;
 }
 /* Skills Section CSS */
@@ -219,15 +220,15 @@ img {
 }
 /*Skill icon sizing css */
 .skillicon {
-    width: 7vw;
+    width: 5vw;
     height: auto;
 }
 .opicon {
-    width: 6vw;
+    width: 5vw;
     height: auto;
 }
 .servericon {
-    width: 8.5vw;
+    width: 6.5vw;
     height: auto;  
 }
 .pythonbx {
@@ -276,7 +277,7 @@ img {
 /*thumbnail css */
 .project-card {
     width: 40%;
-    height: 80%;
+    height: 100%;
     border: 1px solid black;
     border-radius: 10%;
     display: block;
@@ -300,9 +301,7 @@ img {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 20%;
-    /*top: 80%;*/
-    /*padding-top: 7%;*/
+    top: 100%;
 }
 .picons {
     width: 6vw;
@@ -316,15 +315,14 @@ img {
 }
 .calculatoricon {
     width: 6vw;
-    height: 90%;
+    height: auto;
     position: relative;
-    top: 5%;
+
 }
 .weathericon {
     position: relative;
     width: 10%;
-    height: 90%;
-   /* top: 5%;*/
+    height: 80%;
 }
 /*Bottom & Contact form CSS */
 footer {
@@ -513,6 +511,11 @@ textarea {
 @media only screen and (min-width:1024px) {
     .text3 {
         font-size: 1.4rem;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .text3 {
+        font-size: 1.5rem;
     }
 }
 /*Media Queries For <h2> headers i.e Technolgy & Skills Title*/
