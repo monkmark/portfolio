@@ -423,7 +423,7 @@ textarea {
 }
 @media only screen and (min-width:1024px) {
     header {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 /* Media Queries For First main Text*/
@@ -459,13 +459,13 @@ textarea {
 }
 @media only screen and (min-width:1024px) {
     .text {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 }
 /*Large Laptop Resolution */
 @media only screen and (min-width:1440px) {
     .text {
-        font-size: 3.25rem;
+        font-size: 3rem;
     }
 }
 /*4K Monitor Size - Desktop Size */
@@ -493,7 +493,7 @@ textarea {
 }
 @media only screen and (min-width:1440px) {
     .text2 {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 }
 /* Media Queries For Third main Text*/
@@ -514,7 +514,7 @@ textarea {
 }
 @media only screen and (min-width:1024px) {
     .text3 {
-        font-size: 1.4rem;
+        font-size: 1.15rem;
     }
 }
 @media only screen and (min-width:1440px) {
@@ -646,7 +646,7 @@ textarea {
 }
 @media only screen and (min-width:1024px) {
     .project-title {
-        font-size: 3rem;
+        font-size: 2,8rem;
     }
 }
 /*Media Queries For titletext*/
@@ -672,7 +672,7 @@ textarea {
 }
 @media only screen and (min-width:1024px) {
     .titletext {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 /*MISC*/
