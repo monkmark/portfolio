@@ -394,6 +394,7 @@ label {
     /*height: 4vh;*/
     position: relative;
     top: 100%;
+    padding: 2px;
     /*top: 30%;*
     text-align: center;
     margin : 0 auto;
