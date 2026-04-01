@@ -6,7 +6,7 @@ export default function Home() {
     <div className="relative w-screen h-screen overflow-x-scroll hide-scrollbar bg-orange-100"> 
       <header className="flex w-screen h-auto justify-around relative text-base border-b-1 border-black animate-load-border">
         <section className="banner w-1/2 h-auto">
-          <p className="relative top-1 p-1 left-1 text-sm">Marcu Parchman</p>
+          <p className="relative top-1 p-1 left-1 text-sm">Marcusgi Parchman</p>
         </section>
         <ul className="relative flex w-1/2 h-auto justify-around font-Geist fadeInanimate text-sm">
           <li className="no-underline p-1.5 animate-bounce"><a className="text-black font-Geist-Mono hover:text-lg transition-all duration-200 ease-in-out" href="https://github.com/monkmark" target="_blank" rel="noopener noreferrer">Github</a></li>
