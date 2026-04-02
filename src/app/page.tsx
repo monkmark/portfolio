@@ -25,7 +25,7 @@ export default function Home() {
               </section>
               <section className='relative w-[50vw] h-auto bottom-4 left-4'>
                 <p className="mquerytext5 relative text-center">Main Technologies</p>
-                <section className="flex relative justify-around text-center border-blue-700 border-1 rounded-xl w-[48vw] h-[18vh] bg-white left-1">
+                <section className="flex relative justify-around text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[18vh] bg-white right-3">
                   <div className='w-auto h-[15vh] flex relative'>
                     <Image src="/techicons/mongodb.svg" alt="desc" width={100} height={0} className='relative'/>
                   </div>
