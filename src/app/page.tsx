@@ -21,15 +21,15 @@ export default function Home() {
         <section className="leftbx relative w-[50vw] h-screen">
           <section className='container1 relative w-[50vw] h-auto'>
               <section className='relative w-[50vw] h-auto p-2'>
-                <p className="mquerytext relative">Hi, I&#39;m Marcus</p>
-                <p className="mquerytext2 relative">I&#39;m a Software Engineer major at Western Governors University</p>
-                <p className='mquerytext2 relative'>I Specialize in Design & Developing software systems & products. Anywhere from fullstack web platforms to object-oriented applications. Feel free to check out my work alongside!</p>
+                <p className="mquerytext relative fadeInanimate2">Hi, I&#39;m Marcus</p>
+                <p className="mquerytext2 relative fadeInanimate2">I&#39;m a Software Engineer major at Western Governors University</p>
+                <p className='mquerytext2 relative fadeInanimate2'>I Specialize in Design & Developing software systems & products. Anywhere from fullstack web platforms to object-oriented applications. Feel free to check out my work alongside!</p>
               </section>
           </section>
           <section className="container2 relative w-[50vw] h-auto">
             <section className='relative w-[50vw] h-auto left-4'>
-                <p className="mquerytext5 relative text-center">Main Technologies</p>
-                <section className="flex relative justify-around text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[18vh] bg-white right-3">
+                <p className="mquerytext5 relative text-center fadeInanimate3">Main Technologies</p>
+                <section className="flex relative justify-around text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[18vh] bg-white right-3 fadeInanimate3">
                   <div className='w-auto h-[15vh] flex relative'>
                     <Image src="/techicons/mongodb.svg" alt="desc" width={100} height={0} className='relative'/>
                   </div>
@@ -48,8 +48,8 @@ export default function Home() {
                 </section>
             </section>
             <section className='relative w-[50vw] h-auto '>
-                <p className="mquerytext5 relative right-1 text-center">Primary Skills</p>
-                <section className="flex relative justify-center text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[25vh] bg-white left-1">
+                <p className="mquerytext5 relative right-1 text-center fadeInanimate4">Primary Skills</p>
+                <section className="flex relative justify-center text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[25vh] bg-white left-1 fadeInanimate4">
                   <div className='w-[8vw] h-[8vh] grid relative top-2'>
                     <Image src="/skillicons/webd.png" alt="desc" width={100} height={0}/>
                     <label className='mquerytext4 text-lg/-10'>Fullstack Development</label>
@@ -75,23 +75,23 @@ export default function Home() {
                     <label className='mquerytext4'>Customer Service</label>
                   </div>
                 </section>
-                 <p className='mquerytext7 relative mt-auto top-4 left-2'>For all inquiries, feel free to leave a message in the contact form below:</p>
+                 <p className='mquerytext7 relative mt-auto top-4 left-2 fadeInanimate4'>For all inquiries, feel free to leave a message in the contact form below:</p>
             </section>
           </section>
         </section>
         <section className="rightbx relative w-[50vw] h-screen p-1 ">
           <section className="container1 relative w-[50vw] h-[50vh]">
             <div className="relative w-[50vw] h-auto">
-            <p className="mquerytext5 relative text-center">Projects</p>
+              <p className="mquerytext5 relative text-center fadeInanimate4">Projects</p>
             </div>
             <section className="relative firstrow flex w-[50vw] h-[20vh] justify-around">
-              <div className="relative text-center card w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className="relative text-center card w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate5">
                 <div className="thumbnail relative flex justify-center w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/synth.png" alt="Kong" width={100} height={0} className='imgquery relative top-1/12'/>
                 </div>
                 <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">Kong1 Synth</a>
               </div>
-              <div className="relative text-center card w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className="relative text-center card w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate6">
                 <div className="thumbnail relative flex justify-center w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/input.png" alt="user-entry" width={65} height={0} className='imgquery2 relative h-[10vh] top-1/6'/>
                 </div>
@@ -99,13 +99,13 @@ export default function Home() {
               </div>
             </section>
             <section className="relative secondrow flex w-[50vw] h-[20vh] justify-around top-3 ">
-              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate7">
                 <div className="thumbnail relative flex justify-center thumbnail w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/arrow.jpg" alt="STEPPER" width={55} height={0} className='imgquery3 relative top-1/4 h-[8vh]'/>
                 </div> 
                 <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">Stepper Mobile</a>
               </div>
-              <div className=" card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className=" card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate8">
                 <div className="flex justify-around thumbnail relative w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/calculator.png" alt="calculator" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh]'/>
                 </div>
@@ -115,13 +115,13 @@ export default function Home() {
           </section>
           <section className="container2 relative w-[50vw] h-[50vh]">
             <section className="relative thirdrow flex w-[50vw] h-[23vh] justify-around top-1.5">
-              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate9">
                 <div className="flex justify-around thumbnail relative w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/vynil.png" alt="calculator" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh]'/>
                 </div>
                 <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">Samplr</a>
               </div>
-              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate10">
                 <div className="flex justify-around thumbnail relative w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/stocks.png" alt="calculator" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh]'/>
                 </div>
@@ -129,11 +129,11 @@ export default function Home() {
               </div>
             </section>
             <section className="relative fourthrow flex w-[50vw] h-[23vh] justify-around">
-              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate5">
                 <div className="thumbnail relative w-[21.8vw] h-[13vh] border-b-1"></div>
                 <a className='mquerytext4 relative' href='#' target='_blank' rel="noopener noreferrer">Invest.py</a>
               </div>
-              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white">
+              <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate6">
                 <div className="flex justify-around thumbnail relative w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/sun.png" alt="calculator" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh]'/>
                 </div>
