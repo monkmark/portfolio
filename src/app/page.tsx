@@ -4,26 +4,30 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="relative w-screen h-screen overflow-x-scroll hide-scrollbar bg-orange-100"> 
-      <header className="flex w-screen h-auto justify-around relative text-base border-b-1 border-black animate-load-border">
-        <section className="banner w-1/2 h-auto">
-          <p className="relative top-1 p-1 left-1 text-sm">Marcus Parchman</p>
+      <header className="flex w-screen h-auto relative text-base border-b-1 border-black animate-load-border">
+        <section className="banner w-1/2 h-auto flex items-center relative left-1 p-1">
+          <p className="relative">Marcus Parchman</p>
         </section>
-        <ul className="relative flex w-1/2 h-auto justify-around font-Geist fadeInanimate text-sm">
-          <li className="no-underline p-1.5 animate-bounce"><a className="text-black font-Geist-Mono hover:text-lg transition-all duration-200 ease-in-out" href="https://github.com/monkmark" target="_blank" rel="noopener noreferrer">Github</a></li>
-          <li className="no-underline p-1.5 animate-bounce2"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="https://www.linkedin.com/in/parchmanmarcus/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          <li className="no-underline p-1.5 animate-bounce3"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
-          <li className="no-underline p-1.5 animate-bounce4"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="#footer">Contact</a></li>
-        </ul>
+        <section className='banner w-1/2 h-auto flex p-1'>
+          <ul className="relative w-full h-auto font-Geist fadeInanimate flex justify-around items-center">
+            <li className="item no-underline animate-bounce"><a className="text-black font-Geist-Mono hover:text-lg  transition-all duration-100 ease-out" href="https://github.com/monkmark" target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li className="item no-underline animate-bounce2"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="https://www.linkedin.com/in/parchmanmarcus/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li className="item no-underline animate-bounce3"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li className="item no-underline animate-bounce4"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="#footer">Contact</a></li>
+          </ul>
+        </section>
       </header>
       <main className="w-screen h-screen flex">
-        <section className="leftbx relative w-[50vw] h-screen grid">
-          <section className='container1 relative w-[50vw] h-[50vh]'>
+        <section className="leftbx relative w-[50vw] h-screen">
+          <section className='container1 relative w-[50vw] h-auto'>
               <section className='relative w-[50vw] h-auto p-2'>
                 <p className="mquerytext relative">Hi, I&#39;m Marcus</p>
                 <p className="mquerytext2 relative">I&#39;m a Software Engineer major at Western Governors University</p>
                 <p className='mquerytext2 relative'>I Specialize in Design & Developing software systems & products. Anywhere from fullstack web platforms to object-oriented applications. Feel free to check out my work alongside!</p>
               </section>
-              <section className='relative w-[50vw] h-auto bottom-4 left-4'>
+          </section>
+          <section className="container2 relative w-[50vw] h-auto">
+            <section className='relative w-[50vw] h-auto left-4'>
                 <p className="mquerytext5 relative text-center">Main Technologies</p>
                 <section className="flex relative justify-around text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[18vh] bg-white right-3">
                   <div className='w-auto h-[15vh] flex relative'>
@@ -42,8 +46,8 @@ export default function Home() {
                     <Image src="/techicons/WebGL.png" alt="desc" width={100} height={0} className='relative top-7.5'/>
                   </div>
                 </section>
-              </section>
-              <section className='relative w-[50vw] h-auto'>
+            </section>
+            <section className='relative w-[50vw] h-auto '>
                 <p className="mquerytext5 relative right-1 text-center">Primary Skills</p>
                 <section className="flex relative justify-center text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[25vh] bg-white left-1">
                   <div className='w-[8vw] h-[8vh] grid relative top-2'>
@@ -71,10 +75,8 @@ export default function Home() {
                     <label className='mquerytext4'>Customer Service</label>
                   </div>
                 </section>
-              </section>
-          </section>
-          <section className="container2 relative w-[50vw] h-[40vh] flex">
-            <p className='mquerytext7 relative mt-auto bottom-4 left-2'>For all inquiries, feel free to leave a message in the contact form below:</p>
+                 <p className='mquerytext7 relative mt-auto top-4 left-2'>For all inquiries, feel free to leave a message in the contact form below:</p>
+            </section>
           </section>
         </section>
         <section className="rightbx relative w-[50vw] h-screen p-1 ">
