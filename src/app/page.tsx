@@ -4,9 +4,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="relative w-screen h-screen overflow-x-scroll hide-scrollbar bg-orange-100"> 
-      <header className="flex w-screen h-auto relative text-base border-b-1 border-black animate-load-border">
+      <header className="flex w-screen h-auto relative text-base border-b-1 border-black animate-load-border p-1">
         <section className="banner w-1/2 h-auto flex items-center relative left-1 p-1">
-          <p className="relative">Marcus Parchman</p>
+          <p className="relative fadeInanimate">Marcus Parchman</p>
         </section>
         <section className='banner w-1/2 h-auto flex p-1'>
           <ul className="relative w-full h-auto font-Geist fadeInanimate flex justify-around items-center">
