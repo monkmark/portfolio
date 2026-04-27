@@ -18,9 +18,9 @@ export default function Home() {
         </section>
       </header>
       <main className="w-screen h-screen flex">
-        <section className="leftbx relative w-[50vw] h-screen">
+        <section className="leftbx relative w-[50vw] h-screen"> 
           <section className='container1 relative w-[50vw] h-auto'>
-              <section className='relative w-[50vw] h-auto p-2'>
+              <section className='relative w-[50vw] h-auto p-1'>
                 <p className="mquerytext relative fadeInanimate2">Hi, I&#39;m Marcus</p>
                 <p className="mquerytext2 relative fadeInanimate2">I&#39;m a Software Engineer major at Western Governors University</p>
                 <p className='mquerytext2 relative fadeInanimate2'>I Specialize in Design & Developing software systems & products. Anywhere from fullstack web platforms to object-oriented applications. Feel free to check out my work alongside!</p>
@@ -29,20 +29,20 @@ export default function Home() {
           <section className="container2 relative w-[50vw] h-auto">
             <section className='relative w-[100vw] h-auto left-1 grid'>
                 <p className="mquerytext5 relative left-55 fadeInanimate3">Main Technologies</p>
-                <section className="flex justify relative border-blue-700 border-1 rounded-xl w-[50vw] h-auto bg-white fadeInanimate3">
+                <section className="flex justify-evenly text-middle relative border-blue-700 border-1 rounded-xl w-[50vw] h-auto bg-white fadeInanimate3">
                   <div className='w-auto h-auto relative'>
-                    <Image src="/techicons/mongodb.svg" alt="desc" width={0} height={0} className='relative techimgquery'/>
+                    <Image src="/techicons/mongodb.svg" alt="desc" width={100} height={0} className='relative'/>
                   </div>
-                  <div className='w-auto h-auto relative flex jusify-end'>
-                    <Image src="/techicons/node.png" alt="desc" width={50} height={0} className='relative techimgquery2'/>
+                  <div className='w-auto h-[10vh] relative top-3'>
+                    <Image src="/techicons/node.png" alt="desc" width={55} height={0} className='relative right-1'/>
                   </div>
                   <div className='w-auto h-auto relative'>
                     <Image src="/techicons/next.png" alt="desc" width={100} height={0} className='relative'/>
                   </div>
-                  <div className='w-auto h-auto relative'>
-                    <Image src="/techicons/cplus.png" alt="desc" width={70} height={0} className='relative'/>
+                  <div className='w-auto h-auto relative top-2'>
+                    <Image src="/techicons/cplus.png" alt="desc" width={70} height={0} className='relative right-.5'/>
                   </div>
-                  <div className='w-auto h-auto relative'>
+                  <div className='w-auto h-auto relative top-5'>
                     <Image src="/techicons/WebGL.png" alt="desc" width={100} height={0} className='relative'/>
                   </div>
                 </section>
@@ -130,12 +130,14 @@ export default function Home() {
             </section>
             <section className="relative fourthrow flex w-[50vw] h-[23vh] justify-around">
               <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate5">
-                <div className="thumbnail relative w-[21.8vw] h-[13vh] border-b-1"></div>
-                <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">Invest.py</a>
+                <div className="flex justify-around thumbnail relative w-[21.8vw] h-[13vh] border-b-1">
+                  <Image src="/projecticons/obd2.jpg" alt="obd2tool" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh] bg-white'/>
+                </div>
+                <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">OBD 2.0</a>
               </div>
               <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate6">
                 <div className="flex justify-around thumbnail relative w-[21.8vw] h-[13vh] border-b-1">
-                  <Image src="/projecticons/sun.png" alt="calculator" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh]'/>
+                  <Image src="/projecticons/sun.png" alt="calculator" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh] '/>
                 </div>
                 <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">MyWeather</a>
               </div>
