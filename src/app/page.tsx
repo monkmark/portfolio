@@ -11,8 +11,8 @@ export default function Home() {
         <section className='banner w-1/2 h-auto flex p-1'>
           <ul className="relative w-full h-auto font-Geist fadeInanimate flex justify-around items-center">
             <li className="item no-underline animate-bounce"><a className="text-black font-Geist-Mono hover:text-lg  transition-all duration-100 ease-out" href="https://github.com/monkmark" target="_blank" rel="noopener noreferrer">Github</a></li>
-            <li className="item no-underline animate-bounce2"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="https://www.linkedin.com/in/parchmanmarcus/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            <li className="item no-underline animate-bounce3"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li className="item no-underline animate-bounce2"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="https://www.linkedin.com/in/marcuspdev" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li className="item no-underline animate-bounce3"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="techhresume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
             <li className="item no-underline animate-bounce4"><a className="text-black hover:text-lg transition-all duration-200 ease-in-out" href="#footer">Contact</a></li>
           </ul>
         </section>
@@ -27,23 +27,23 @@ export default function Home() {
               </section>
           </section>
           <section className="container2 relative w-[50vw] h-auto">
-            <section className='relative w-[50vw] h-auto left-4'>
-                <p className="mquerytext5 relative text-center fadeInanimate3">Main Technologies</p>
-                <section className="flex relative justify-around text-center border-blue-700 border-1 rounded-xl w-[50vw] h-[18vh] bg-white right-3 fadeInanimate3">
-                  <div className='w-auto h-[15vh] flex relative'>
-                    <Image src="/techicons/mongodb.svg" alt="desc" width={100} height={0} className='relative'/>
+            <section className='relative w-[100vw] h-auto left-1 grid'>
+                <p className="mquerytext5 relative left-55 fadeInanimate3">Main Technologies</p>
+                <section className="flex justify relative border-blue-700 border-1 rounded-xl w-[50vw] h-auto bg-white fadeInanimate3">
+                  <div className='w-auto h-auto relative'>
+                    <Image src="/techicons/mongodb.svg" alt="desc" width={0} height={0} className='relative techimgquery'/>
                   </div>
-                  <div className='w-auto h-[10vh] flex relative'>
-                    <Image src="/techicons/node.png" alt="desc" width={50} height={0} className='relative top-4'/>
+                  <div className='w-auto h-auto relative flex jusify-end'>
+                    <Image src="/techicons/node.png" alt="desc" width={50} height={0} className='relative techimgquery2'/>
                   </div>
-                  <div className='w-auto h-[10vh] '>
-                    <Image src="/techicons/next.png" alt="desc" width={100} height={0} className='relative left-2'/>
+                  <div className='w-auto h-auto relative'>
+                    <Image src="/techicons/next.png" alt="desc" width={100} height={0} className='relative'/>
                   </div>
-                  <div className='w-auto h-[10vh]'>
-                    <Image src="/techicons/cplus.png" alt="desc" width={70} height={0} className='relative top-4'/>
+                  <div className='w-auto h-auto relative'>
+                    <Image src="/techicons/cplus.png" alt="desc" width={70} height={0} className='relative'/>
                   </div>
-                  <div className='w-auto h-[10vh]'>
-                    <Image src="/techicons/WebGL.png" alt="desc" width={100} height={0} className='relative top-7.5'/>
+                  <div className='w-auto h-auto relative'>
+                    <Image src="/techicons/WebGL.png" alt="desc" width={100} height={0} className='relative'/>
                   </div>
                 </section>
             </section>
@@ -131,13 +131,13 @@ export default function Home() {
             <section className="relative fourthrow flex w-[50vw] h-[23vh] justify-around">
               <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate5">
                 <div className="thumbnail relative w-[21.8vw] h-[13vh] border-b-1"></div>
-                <a className='mquerytext4 relative' href='#' target='_blank' rel="noopener noreferrer">Invest.py</a>
+                <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">Invest.py</a>
               </div>
               <div className="card relative text-center w-[22vw] h-[20vh] border-1 border-black rounded-2xl bg-white fadeInanimate6">
                 <div className="flex justify-around thumbnail relative w-[21.8vw] h-[13vh] border-b-1">
                   <Image src="/projecticons/sun.png" alt="calculator" width={50} height={0} className='relative top-1/12 w-[5vw] h-[10vh]'/>
                 </div>
-                <a className='mquerytext4 relative' href='#' target='_blank' rel="noopener noreferrer">MyWeather</a>
+                <a className='mquerytext6 relative' href='#' target='_blank' rel="noopener noreferrer">MyWeather</a>
               </div>
             </section>
           </section>

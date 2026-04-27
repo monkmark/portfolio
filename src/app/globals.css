@@ -16,7 +16,7 @@ html {
 }
 /* Media Queries for header, text, thumnbnails & links */
 @media  (min-width: 320px) {
-  header {
+  header, .mquerytext6 {
     font-size: 7.5px;
   }
   .mquerytext {
@@ -28,9 +28,7 @@ html {
   .mquerytext3 {
     font-size: 20px;
   }
-  .mquerytext4 {
-      font-weight: bold;
-    }
+
     .mquerytext {
       font-size: 20px;
     }
@@ -39,9 +37,6 @@ html {
     }
     .mquerytext3 {
       font-size: 20px;
-    }
-    .mquerytext4 {
-      font-size: 8.5px;
     }
 
 }
@@ -216,15 +211,13 @@ html {
   }
   
 }
+/*End*/
 /*image querys for technology images*/
 @media (min-width: 320px) {
-  .techimgquery {
-    width: 20%;
-    height: auto;
-  }
+ 
   .techimgquery2 {
-    width: 13%;
-    height: 15%;
+    width: screen;
+    height: 45%;
   }
   .techimgquery3 {
     width: 14%;
@@ -237,7 +230,7 @@ html {
 }
 @media (min-width: 375px) {
   .techimgquery {
-    width: 17%;
+    width: 100%;
     height: auto;
   }
   .techimgquery2 {
@@ -291,12 +284,12 @@ html {
 }
 @media (min-width: 1024px) {
   .techimgquery {
-    width: 12%;
+    width: 40%;
     height: auto;
   }
   .techimgquery2 {
-    width: 9%;
-    height: 15%;
+    width: 100%;
+    height: auto;
   }
   .techimgquery3 {
     width: 10%;
